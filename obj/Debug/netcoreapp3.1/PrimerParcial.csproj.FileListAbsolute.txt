@@ -1,0 +1,5 @@
+C:\Users\Elsa b\source\repos\PrimerParcial\obj\Debug\netcoreapp3.1\PrimerParcial.csprojAssemblyReference.cache
+C:\Users\Elsa b\source\repos\PrimerParcial\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Elsa b\source\repos\PrimerParcial\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Elsa b\source\repos\PrimerParcial\obj\Debug\netcoreapp3.1\PrimerParcial_MarkupCompile.cache
+C:\Users\Elsa b\source\repos\PrimerParcial\obj\Debug\netcoreapp3.1\PrimerParcial_MarkupCompile.lref
