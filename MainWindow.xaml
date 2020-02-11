@@ -7,17 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="ProductosId" HorizontalAlignment="Left" Margin="80,31,0,0" VerticalAlignment="Top" Width="87"/>
-        <Label Content="Descripcion" HorizontalAlignment="Left" Margin="80,73,0,0" VerticalAlignment="Top"/>
-        <Label Content="Existecia" HorizontalAlignment="Left" Margin="80,115,0,0" VerticalAlignment="Top"/>
-        <Label Content="Costo" HorizontalAlignment="Left" Margin="80,141,0,0" VerticalAlignment="Top"/>
-        <Label Content="Valor Inventario" HorizontalAlignment="Left" Margin="80,172,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,39,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,77,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,176,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Nuevo" HorizontalAlignment="Left" Margin="181,232,0,0" VerticalAlignment="Top" Width="83"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" Margin="280,232,0,0" VerticalAlignment="Top" Width="83"/>
-        <Button Content="Buscar" HorizontalAlignment="Left" Margin="372,38,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label x:Name="ProductosIdLebel" Content="ProductosId" HorizontalAlignment="Left" Margin="80,31,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label x:Name="DescripcionLebel" Content="Descripcion" HorizontalAlignment="Left" Margin="80,73,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ExixteciaLebel" Content="Existecia" HorizontalAlignment="Left" Margin="80,115,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CostoLebel" Content="Costo" HorizontalAlignment="Left" Margin="80,141,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ValoeInvetarioLebe" Content="Valor Inventario" HorizontalAlignment="Left" Margin="80,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ProductoIdTex" HorizontalAlignment="Left" Margin="220,39,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="ProductoIdTex_TextChanged"/>
+        <TextBox x:Name="DescripcionTex" HorizontalAlignment="Left" Margin="220,77,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="DescripcionTex_TextChanged"/>
+        <TextBox x:Name="ValorInventarioTex" HorizontalAlignment="Left" Margin="220,176,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="ValorInventarioTex_TextChanged"/>
+        <Button x:Name="NuevoBotton" Content="Nuevo" HorizontalAlignment="Left" Margin="181,232,0,0" VerticalAlignment="Top" Width="83" Click="NuevoBotton_Click"/>
+        <Button x:Name="GuargarButton" Content="Guardar" HorizontalAlignment="Left" Margin="280,232,0,0" VerticalAlignment="Top" Width="83" Click="GuargarButton_Click"/>
+        <Button  x:Name="BuscarBotton" Content="Buscar" HorizontalAlignment="Left" Margin="372,38,0,0" VerticalAlignment="Top" Width="85" Click="BuscarBotton_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,115,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="CostoTex" HorizontalAlignment="Left" Margin="220,145,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="CostoTex_TextChanged"/>
+        <Button x:Name="EliminarButton" Content="Eliminiar" HorizontalAlignment="Left" Margin="372,232,0,0" VerticalAlignment="Top" Width="90" Click="EliminarButton_Click"/>
 
     </Grid>
 </Window>
